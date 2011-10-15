@@ -1,0 +1,6 @@
+graph Name {
+  Knoten1;
+  Knoten2;
+
+  Knoten1 -- Knoten2;
+}
