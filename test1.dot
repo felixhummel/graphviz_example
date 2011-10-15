@@ -1,7 +1,11 @@
 digraph Name {
-  NODE [shape=component];
-  A;
-  B;
+
+  // scope
+  {
+    NODE [shape=component];
+    A;
+    B;
+  }
   C;
 
 
