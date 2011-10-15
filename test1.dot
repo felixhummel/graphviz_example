@@ -1,9 +1,11 @@
 digraph Name {
-  A;
-  B;
+  NODE [shape=box,style=filled,fillcolor=red,fontcolor=green]
+  A [label="Foo\nBar"];
+  B [shape=folder];
+  C [style="dashed,filled"];
 
 
   // dir=forward back both none controls arrow direction.
   A -> B;
-  B -> A [dir=none];
+  B -> A [dir=none,label="Kante"];
 }
