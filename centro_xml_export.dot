@@ -1,0 +1,6 @@
+digraph Name {
+  advertiser -> campaign;
+  campaign -> line_item;
+  campaign -> creative;
+  line_item -> creative;
+}

@@ -1,0 +1,14 @@
+digraph repo_layout {
+    node [shape=record, width=.1, height=.1];
+    rankdir = LR;
+
+    a -> b;
+    a -> c;
+    b -> b1;
+    b -> b2;
+    b -> b3; b3 [label="..."];
+    c -> c1;
+    c -> c2;
+    c -> c3; c3 [label="..."];
+}
+
